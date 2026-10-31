@@ -1,0 +1,129 @@
+@import "tailwindcss";
+
+:root {
+  --canvas: #f6f5f1;
+  --surface: #ffffff;
+  --surface-2: #f1efe9;
+  --ink: #1b1d1c;
+  --ink-2: #4a4f4c;
+  --muted: #7a7f7b;
+  --line: #e4e1d8;
+  --line-strong: #cfcabd;
+  --accent: #1f6f5c;
+  --accent-ink: #ffffff;
+  --accent-soft: #e2efe9;
+  --danger: #b4372f;
+  --danger-soft: #f8e6e3;
+  --warn: #9a6200;
+  --warn-soft: #f8edd6;
+  --info: #2c5d8f;
+  --info-soft: #e3ecf6;
+  --ring: rgb(31 111 92 / 0.35);
+  --chart-1: #178a68; /* validated: chroma, lightness band, contrast */
+  --chart-grid: #ebe8df;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --canvas: #121413;
+    --surface: #1a1d1c;
+    --surface-2: #222624;
+    --ink: #ecebe6;
+    --ink-2: #c3c4bf;
+    --muted: #8f948f;
+    --line: #2d322f;
+    --line-strong: #3d4440;
+    --accent: #5fbf9f;
+    --accent-ink: #0d1a15;
+    --accent-soft: #1d3029;
+    --danger: #ef8a80;
+    --danger-soft: #3a2220;
+    --warn: #e2b55a;
+    --warn-soft: #362c18;
+    --info: #8db8e6;
+    --info-soft: #1d2a38;
+    --ring: rgb(95 191 159 / 0.35);
+    --chart-1: #2fa883;
+    --chart-grid: #2a2f2c;
+  }
+}
+
+@theme inline {
+  --color-canvas: var(--canvas);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-ink: var(--ink);
+  --color-ink-2: var(--ink-2);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-line-strong: var(--line-strong);
+  --color-accent: var(--accent);
+  --color-accent-ink: var(--accent-ink);
+  --color-accent-soft: var(--accent-soft);
+  --color-danger: var(--danger);
+  --color-danger-soft: var(--danger-soft);
+  --color-warn: var(--warn);
+  --color-warn-soft: var(--warn-soft);
+  --color-info: var(--info);
+  --color-info-soft: var(--info-soft);
+  --color-chart-1: var(--chart-1);
+  --color-chart-grid: var(--chart-grid);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+html {
+  color-scheme: light dark;
+}
+
+body {
+  background: var(--canvas);
+  color: var(--ink);
+  font-family: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  font-feature-settings: "ss01";
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.num {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Form controls share one look. Defined as a utility so single-purpose
+   utilities (w-auto, h-9, …) can still override it. */
+@utility field-control {
+  width: 100%;
+  border: 1px solid var(--line-strong);
+  background: var(--surface);
+  color: var(--ink);
+  border-radius: 0.5rem;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  transition: border-color 120ms, box-shadow 120ms;
+  &:focus {
+    outline: none;
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px var(--ring);
+  }
+  &:disabled {
+    background: var(--surface-2);
+    color: var(--muted);
+  }
+  &[aria-invalid="true"] {
+    border-color: var(--danger);
+  }
+}
+
+@media print {
+  body {
+    background: #fff;
+    color: #000;
+  }
+  .no-print {
+    display: none !important;
+  }
+}
