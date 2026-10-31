@@ -1,0 +1,458 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-31T09:11:45.153682+00:00",
+  "title": "Design System: LoopBill",
+  "extensions": {
+    "colorMeta": {
+      "ledger-green": {
+        "role": "primary",
+        "displayName": "Ledger Green",
+        "canonical": "#1f6f5c",
+        "tonalRamp": [
+          "oklch(15% 0.082 173)",
+          "oklch(25% 0.082 173)",
+          "oklch(35% 0.082 173)",
+          "oklch(45% 0.082 173)",
+          "oklch(55% 0.082 173)",
+          "oklch(70% 0.082 173)",
+          "oklch(85% 0.082 173)",
+          "oklch(95% 0.082 173)"
+        ]
+      },
+      "ledger-green-soft": {
+        "role": "primary",
+        "displayName": "Ledger Green Wash",
+        "canonical": "#e2efe9",
+        "tonalRamp": [
+          "oklch(15% 0.016 167)",
+          "oklch(25% 0.016 167)",
+          "oklch(35% 0.016 167)",
+          "oklch(45% 0.016 167)",
+          "oklch(55% 0.016 167)",
+          "oklch(70% 0.016 167)",
+          "oklch(85% 0.016 167)",
+          "oklch(95% 0.016 167)"
+        ]
+      },
+      "chart-green": {
+        "role": "primary",
+        "displayName": "Chart Green",
+        "canonical": "#178a68",
+        "tonalRamp": [
+          "oklch(15% 0.110 167)",
+          "oklch(25% 0.110 167)",
+          "oklch(35% 0.110 167)",
+          "oklch(45% 0.110 167)",
+          "oklch(55% 0.110 167)",
+          "oklch(70% 0.110 167)",
+          "oklch(85% 0.110 167)",
+          "oklch(95% 0.110 167)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "#1b1d1c",
+        "tonalRamp": [
+          "oklch(15% 0.004 165)",
+          "oklch(25% 0.004 165)",
+          "oklch(35% 0.004 165)",
+          "oklch(45% 0.004 165)",
+          "oklch(55% 0.004 165)",
+          "oklch(70% 0.004 165)",
+          "oklch(85% 0.004 165)",
+          "oklch(95% 0.004 165)"
+        ]
+      },
+      "ink-secondary": {
+        "role": "neutral",
+        "displayName": "Graphite",
+        "canonical": "#4a4f4c",
+        "tonalRamp": [
+          "oklch(15% 0.008 160)",
+          "oklch(25% 0.008 160)",
+          "oklch(35% 0.008 160)",
+          "oklch(45% 0.008 160)",
+          "oklch(55% 0.008 160)",
+          "oklch(70% 0.008 160)",
+          "oklch(85% 0.008 160)",
+          "oklch(95% 0.008 160)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Pencil",
+        "canonical": "#7a7f7b",
+        "tonalRamp": [
+          "oklch(15% 0.008 152)",
+          "oklch(25% 0.008 152)",
+          "oklch(35% 0.008 152)",
+          "oklch(45% 0.008 152)",
+          "oklch(55% 0.008 152)",
+          "oklch(70% 0.008 152)",
+          "oklch(85% 0.008 152)",
+          "oklch(95% 0.008 152)"
+        ]
+      },
+      "canvas": {
+        "role": "neutral",
+        "displayName": "Paper Canvas",
+        "canonical": "#f6f5f1",
+        "tonalRamp": [
+          "oklch(15% 0.005 95)",
+          "oklch(25% 0.005 95)",
+          "oklch(35% 0.005 95)",
+          "oklch(45% 0.005 95)",
+          "oklch(55% 0.005 95)",
+          "oklch(70% 0.005 95)",
+          "oklch(85% 0.005 95)",
+          "oklch(95% 0.005 95)"
+        ]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "Sheet White",
+        "canonical": "#ffffff",
+        "tonalRamp": [
+          "oklch(15% 0.000 90)",
+          "oklch(25% 0.000 90)",
+          "oklch(35% 0.000 90)",
+          "oklch(45% 0.000 90)",
+          "oklch(55% 0.000 90)",
+          "oklch(70% 0.000 90)",
+          "oklch(85% 0.000 90)",
+          "oklch(95% 0.000 90)"
+        ]
+      },
+      "surface-sunken": {
+        "role": "neutral",
+        "displayName": "Sunken Paper",
+        "canonical": "#f1efe9",
+        "tonalRamp": [
+          "oklch(15% 0.008 91)",
+          "oklch(25% 0.008 91)",
+          "oklch(35% 0.008 91)",
+          "oklch(45% 0.008 91)",
+          "oklch(55% 0.008 91)",
+          "oklch(70% 0.008 91)",
+          "oklch(85% 0.008 91)",
+          "oklch(95% 0.008 91)"
+        ]
+      },
+      "rule": {
+        "role": "neutral",
+        "displayName": "Hairline Rule",
+        "canonical": "#e4e1d8",
+        "tonalRamp": [
+          "oklch(15% 0.013 92)",
+          "oklch(25% 0.013 92)",
+          "oklch(35% 0.013 92)",
+          "oklch(45% 0.013 92)",
+          "oklch(55% 0.013 92)",
+          "oklch(70% 0.013 92)",
+          "oklch(85% 0.013 92)",
+          "oklch(95% 0.013 92)"
+        ]
+      },
+      "rule-strong": {
+        "role": "neutral",
+        "displayName": "Strong Rule",
+        "canonical": "#cfcabd",
+        "tonalRamp": [
+          "oklch(15% 0.019 89)",
+          "oklch(25% 0.019 89)",
+          "oklch(35% 0.019 89)",
+          "oklch(45% 0.019 89)",
+          "oklch(55% 0.019 89)",
+          "oklch(70% 0.019 89)",
+          "oklch(85% 0.019 89)",
+          "oklch(95% 0.019 89)"
+        ]
+      },
+      "danger": {
+        "role": "status",
+        "displayName": "Overdue Red",
+        "canonical": "#b4372f",
+        "tonalRamp": [
+          "oklch(15% 0.120 28)",
+          "oklch(25% 0.120 28)",
+          "oklch(35% 0.120 28)",
+          "oklch(45% 0.120 28)",
+          "oklch(55% 0.120 28)",
+          "oklch(70% 0.120 28)",
+          "oklch(85% 0.120 28)",
+          "oklch(95% 0.120 28)"
+        ]
+      },
+      "danger-soft": {
+        "role": "status",
+        "displayName": "Overdue Wash",
+        "canonical": "#f8e6e3",
+        "tonalRamp": [
+          "oklch(15% 0.020 29)",
+          "oklch(25% 0.020 29)",
+          "oklch(35% 0.020 29)",
+          "oklch(45% 0.020 29)",
+          "oklch(55% 0.020 29)",
+          "oklch(70% 0.020 29)",
+          "oklch(85% 0.020 29)",
+          "oklch(95% 0.020 29)"
+        ]
+      },
+      "warn": {
+        "role": "status",
+        "displayName": "Pending Amber",
+        "canonical": "#9a6200",
+        "tonalRamp": [
+          "oklch(15% 0.117 71)",
+          "oklch(25% 0.117 71)",
+          "oklch(35% 0.117 71)",
+          "oklch(45% 0.117 71)",
+          "oklch(55% 0.117 71)",
+          "oklch(70% 0.117 71)",
+          "oklch(85% 0.117 71)",
+          "oklch(95% 0.117 71)"
+        ]
+      },
+      "warn-soft": {
+        "role": "status",
+        "displayName": "Pending Wash",
+        "canonical": "#f8edd6",
+        "tonalRamp": [
+          "oklch(15% 0.033 85)",
+          "oklch(25% 0.033 85)",
+          "oklch(35% 0.033 85)",
+          "oklch(45% 0.033 85)",
+          "oklch(55% 0.033 85)",
+          "oklch(70% 0.033 85)",
+          "oklch(85% 0.033 85)",
+          "oklch(95% 0.033 85)"
+        ]
+      },
+      "info": {
+        "role": "status",
+        "displayName": "Quotation Blue",
+        "canonical": "#2c5d8f",
+        "tonalRamp": [
+          "oklch(15% 0.097 251)",
+          "oklch(25% 0.097 251)",
+          "oklch(35% 0.097 251)",
+          "oklch(45% 0.097 251)",
+          "oklch(55% 0.097 251)",
+          "oklch(70% 0.097 251)",
+          "oklch(85% 0.097 251)",
+          "oklch(95% 0.097 251)"
+        ]
+      },
+      "info-soft": {
+        "role": "status",
+        "displayName": "Quotation Wash",
+        "canonical": "#e3ecf6",
+        "tonalRamp": [
+          "oklch(15% 0.017 251)",
+          "oklch(25% 0.017 251)",
+          "oklch(35% 0.017 251)",
+          "oklch(45% 0.017 251)",
+          "oklch(55% 0.017 251)",
+          "oklch(70% 0.017 251)",
+          "oklch(85% 0.017 251)",
+          "oklch(95% 0.017 251)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Page titles and record numbers."
+      },
+      "figure": {
+        "displayName": "Figure",
+        "purpose": "Stat-card values; tabular."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Card headers."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Tables, forms, copy."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Form labels, small buttons, filters."
+      },
+      "column-head": {
+        "displayName": "Column Head",
+        "purpose": "Uppercase table headers."
+      }
+    },
+    "shadows": [
+      {
+        "name": "button-lift",
+        "value": "0 1px 2px rgb(0 0 0 / 0.05)",
+        "purpose": "Primary button only."
+      },
+      {
+        "name": "float",
+        "value": "0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1)",
+        "purpose": "Tooltips and the mobile drawer."
+      }
+    ],
+    "motion": [
+      {
+        "name": "control-transition",
+        "value": "120ms ease",
+        "purpose": "Border, background and focus-ring changes on controls."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "sm",
+        "value": "640px"
+      },
+      {
+        "name": "md",
+        "value": "768px"
+      },
+      {
+        "name": "lg",
+        "value": "1024px",
+        "purpose": "Sidebar appears."
+      },
+      {
+        "name": "xl",
+        "value": "1280px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The single main action in an area.",
+      "html": "<button class=\"ds-btn-primary\">Run billing</button>",
+      "css": ".ds-btn-primary{font-family:Geist, ui-sans-serif, system-ui, sans-serif;display:inline-flex;align-items:center;height:36px;padding:0 14px;border:0;border-radius:8px;background:var(--accent,#1f6f5c);color:var(--accent-ink,#fff);font-size:14px;font-weight:500;box-shadow:0 1px 2px rgb(0 0 0/.05);cursor:pointer;transition:filter .12s}.ds-btn-primary:hover{filter:brightness(1.1)}.ds-btn-primary:focus-visible{outline:2px solid var(--accent,#1f6f5c);outline-offset:2px}"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Every other action.",
+      "html": "<button class=\"ds-btn-secondary\">Print</button>",
+      "css": ".ds-btn-secondary{font-family:Geist, ui-sans-serif, system-ui, sans-serif;display:inline-flex;align-items:center;height:36px;padding:0 14px;border:1px solid var(--line-strong,#cfcabd);border-radius:8px;background:var(--surface,#fff);color:var(--ink,#1b1d1c);font-size:14px;font-weight:500;cursor:pointer;transition:background .12s}.ds-btn-secondary:hover{background:var(--surface-2,#f1efe9)}.ds-btn-secondary:focus-visible{outline:2px solid var(--accent,#1f6f5c);outline-offset:2px}"
+    },
+    {
+      "name": "Danger Button",
+      "kind": "button",
+      "refersTo": "button-danger",
+      "description": "Destructive action; asks for a second click.",
+      "html": "<button class=\"ds-btn-danger\">Cancel invoice</button>",
+      "css": ".ds-btn-danger{font-family:Geist, ui-sans-serif, system-ui, sans-serif;display:inline-flex;align-items:center;height:36px;padding:0 14px;border:1px solid rgb(180 55 47/.4);border-radius:8px;background:var(--surface,#fff);color:var(--danger,#b4372f);font-size:14px;font-weight:500;cursor:pointer}.ds-btn-danger:hover{background:var(--danger-soft,#f8e6e3)}.ds-btn-danger:focus-visible{outline:2px solid var(--accent,#1f6f5c);outline-offset:2px}"
+    },
+    {
+      "name": "Text Field",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Labelled input with green focus ring.",
+      "html": "<label class=\"ds-field\"><span>Billing email</span><input class=\"ds-input\" value=\"tara@harbor.example\"></label>",
+      "css": ".ds-field{font-family:Geist, ui-sans-serif, system-ui, sans-serif;display:grid;gap:6px;font-size:13px;font-weight:500;color:var(--ink-2,#4a4f4c);max-width:320px}.ds-input{font:inherit;font-size:14px;font-weight:400;color:var(--ink,#1b1d1c);background:var(--surface,#fff);border:1px solid var(--line-strong,#cfcabd);border-radius:8px;padding:8px 12px;transition:border-color .12s,box-shadow .12s}.ds-input:focus{outline:none;border-color:var(--accent,#1f6f5c);box-shadow:0 0 0 3px rgb(31 111 92/.35)}"
+    },
+    {
+      "name": "Status Badge",
+      "kind": "chip",
+      "refersTo": "status-badge-active",
+      "description": "Lifecycle state: dot, word, color.",
+      "html": "<span class=\"ds-badge ds-badge-active\"><i></i>Active</span> <span class=\"ds-badge ds-badge-overdue\"><i></i>Overdue</span> <span class=\"ds-badge ds-badge-quote\"><i></i>Quotation</span>",
+      "css": ".ds-badge{font-family:Geist, ui-sans-serif, system-ui, sans-serif;display:inline-flex;align-items:center;gap:4px;border-radius:9999px;padding:2px 8px;font-size:12px;font-weight:500}.ds-badge i{width:6px;height:6px;border-radius:50%;background:currentColor;opacity:.7}.ds-badge-active{background:var(--accent-soft,#e2efe9);color:var(--accent,#1f6f5c)}.ds-badge-overdue{background:var(--danger-soft,#f8e6e3);color:var(--danger,#b4372f)}.ds-badge-quote{background:var(--info-soft,#e3ecf6);color:var(--info,#2c5d8f)}"
+    },
+    {
+      "name": "Sidebar Nav",
+      "kind": "nav",
+      "refersTo": "nav-item-active",
+      "description": "Back-office navigation with active wash.",
+      "html": "<nav class=\"ds-nav\"><div class=\"ds-nav-h\">Billing</div><a class=\"ds-nav-a ds-on\" href=\"#\">Invoices</a><a class=\"ds-nav-a\" href=\"#\">Payments</a><a class=\"ds-nav-a\" href=\"#\">Billing run</a></nav>",
+      "css": ".ds-nav{font-family:Geist, ui-sans-serif, system-ui, sans-serif;width:220px;display:grid;gap:2px}.ds-nav-h{font-size:11px;font-weight:500;letter-spacing:.05em;text-transform:uppercase;color:var(--muted,#7a7f7b);padding:0 10px 6px}.ds-nav-a{display:block;border-radius:6px;padding:6px 10px;font-size:14px;color:var(--ink-2,#4a4f4c);text-decoration:none}.ds-nav-a:hover{background:var(--surface-2,#f1efe9);color:var(--ink,#1b1d1c)}.ds-nav-a.ds-on{background:var(--accent-soft,#e2efe9);color:var(--accent,#1f6f5c);font-weight:500}"
+    },
+    {
+      "name": "Stat Card",
+      "kind": "card",
+      "refersTo": "card",
+      "description": "KPI tile with tabular figure.",
+      "html": "<div class=\"ds-stat\"><div class=\"ds-stat-l\">Collected in period</div><div class=\"ds-stat-v\">₹1,31,06,665.56</div><div class=\"ds-stat-h\">611 payments</div></div>",
+      "css": ".ds-stat{font-family:Geist, ui-sans-serif, system-ui, sans-serif;width:220px;border:1px solid var(--line,#e4e1d8);border-radius:12px;background:var(--surface,#fff);padding:16px}.ds-stat-l{font-size:13px;color:var(--muted,#7a7f7b)}.ds-stat-v{margin-top:4px;font-size:20px;font-weight:600;letter-spacing:-.025em;font-variant-numeric:tabular-nums;color:var(--accent,#1f6f5c)}.ds-stat-h{margin-top:4px;font-size:12px;color:var(--muted,#7a7f7b)}"
+    },
+    {
+      "name": "Lifecycle Stepper",
+      "kind": "custom",
+      "refersTo": null,
+      "description": "Signature: where a subscription stands.",
+      "html": "<ol class=\"ds-step\"><li class=\"ds-done\"><b>✓</b>Draft</li><li class=\"ds-done\"><b>✓</b>Quotation</li><li class=\"ds-cur\"><b>3</b>Confirmed</li><li><b>4</b>Active</li><li><b>5</b>Closed</li></ol>",
+      "css": ".ds-step{font-family:Geist, ui-sans-serif, system-ui, sans-serif;display:flex;flex-wrap:wrap;gap:6px;list-style:none;padding:0;margin:0;font-size:13px}.ds-step li{display:flex;align-items:center;gap:6px;border-radius:9999px;padding:4px 10px;color:var(--muted,#7a7f7b)}.ds-step b{display:grid;place-items:center;width:16px;height:16px;border-radius:50%;border:1px solid var(--line-strong,#cfcabd);font-size:10px;font-weight:500}.ds-step .ds-done{color:var(--accent,#1f6f5c)}.ds-step .ds-done b{border:0;background:var(--accent-soft,#e2efe9)}.ds-step .ds-cur{background:var(--accent,#1f6f5c);color:#fff;font-weight:500}.ds-step .ds-cur b{border:0;background:rgb(255 255 255/.25)}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Quiet Instrument",
+    "overview": "LoopBill is a tool that recedes so the work can come forward. Most of the screen is warm paper and ink: off-white canvas, white working surfaces, near-black text and hairline rules. The interface is dense and legible because its users process hundreds of records at a time. Brand shows up in precise details rather than decoration: one green ink, perfectly aligned figures, and statuses that always tell you where a record stands.\n\nDepth is tonal, not lifted. Sections sit on the canvas as flat, ruled cards. Tables are the main form. Numbers use tabular figures so columns of rupees line up to the paisa. Color is rationed: Ledger Green marks the primary action, the current place and money received. Red, amber and blue are reserved for state and never decorate.\n\nBack office and customer portal share the same system. The portal uses a narrower column and top tabs instead of a sidebar, but the same cards, tables, badges and document styles.",
+    "keyCharacteristics": [
+      "Warm paper neutrals with a single green ink accent.",
+      "Flat, hairline-ruled surfaces; no shadows at rest.",
+      "Tables first, with tabular figures for every number.",
+      "Status shown by pill badges that pair color with a dot and a word, never color alone.",
+      "Dense but calm: 14px body, generous row height, quiet column headers.",
+      "Full light and dark themes driven by the same tokens."
+    ],
+    "rules": [
+      {
+        "name": "The One Ink Rule",
+        "body": "Ledger Green is the only brand hue. Any new accent must be one of the status hues, used for state.",
+        "section": "colors"
+      },
+      {
+        "name": "The State-Only Rule",
+        "body": "Red, amber and blue appear only to mean a state (overdue, pending, quotation, error). They are never decoration.",
+        "section": "colors"
+      },
+      {
+        "name": "The Data Ink Rule",
+        "body": "Chart marks use Chart Green, never Ledger Green, and chart text stays in the ink tokens.",
+        "section": "colors"
+      },
+      {
+        "name": "The Tabular Rule",
+        "body": "Every number that can sit in a column (amounts, quantities, dates, document numbers) uses tabular figures.",
+        "section": "typography"
+      },
+      {
+        "name": "The One Face Rule",
+        "body": "Geist only. Add emphasis with weight; never add a display face.",
+        "section": "typography"
+      },
+      {
+        "name": "The Volume Rule",
+        "body": "Lists paginate at 25 rows, filter in the URL, and keep filters in one row directly above the table they control.",
+        "section": "layout"
+      },
+      {
+        "name": "The Flat-By-Default Rule",
+        "body": "Surfaces are flat at rest. A shadow means the element floats above the page; anything sitting in the page uses a border instead.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do keep Ledger Green (#1f6f5c) for the single primary action, the current location and money received.",
+      "Do use tabular figures and right alignment for every amount, quantity and date column.",
+      "Do pair every status color with a dot and a word in a pill badge.",
+      "Do separate surfaces with 1px Hairline Rules (#e4e1d8) instead of shadows.",
+      "Do keep text in ink tokens even next to a colored mark.",
+      "Do keep both themes valid: every new color needs a light and a dark value in `globals.css`."
+    ],
+    "donts": [
+      "Don't introduce a second brand hue or decorative gradients.",
+      "Don't use red, amber or blue for anything except state.",
+      "Don't add shadows to cards, tables or anything else that sits in the page.",
+      "Don't add a second typeface.",
+      "Don't show status with color alone."
+    ]
+  }
+}
